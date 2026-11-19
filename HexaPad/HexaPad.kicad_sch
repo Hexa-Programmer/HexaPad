@@ -5,6 +5,174 @@
 	(uuid "5386e0fd-4bb6-4932-97ee-c8cecb18126d")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Display_Graphic:ER_OLEDM0.91_1x-I2C"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ER_OLEDM0.91_1x-I2C"
+				(at 14.224 -10.668 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Display:ER_OLEDM0.91_1x-I2C"
+				(at 18.034 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.buydisplay.com/download/manual/ER-OLEDM0.91-1_Datasheet.pdf"
+				(at 42.672 -14.732 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SSD1306 OLED module, 0.91 inch, 128x32, I2C"
+				(at 26.67 -16.764 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "EastRising"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "ER?OLEDM0.91?1x?I2C*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ER_OLEDM0.91_1x-I2C_1_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -620,6 +788,12 @@
 		(uuid "1699b4ab-09fd-438a-8026-a3abde5dcad2")
 	)
 	(junction
+		(at 212.09 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a99f1ca-bf8b-42ba-baf8-589f81cb7ad9")
+	)
+	(junction
 		(at 203.2 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -633,6 +807,36 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 102.87) (xy 176.53 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0194b124-d650-4858-b8a1-e7bb8849b425")
+	)
+	(wire
+		(pts
+			(xy 180.34 66.04) (xy 191.77 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0afe6ff6-c198-4f72-9a01-1c8925ef45d2")
+	)
+	(wire
+		(pts
+			(xy 132.08 110.49) (xy 135.89 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10ae2f6d-2e73-4be2-9152-8770c6d41d5c")
+	)
+	(wire
+		(pts
 			(xy 203.2 96.52) (xy 203.2 107.95)
 		)
 		(stroke
@@ -640,6 +844,26 @@
 			(type default)
 		)
 		(uuid "247d38d4-2176-4caf-a56b-9e8ae742e66e")
+	)
+	(wire
+		(pts
+			(xy 212.09 107.95) (xy 215.9 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28dae144-87bc-4aad-ad9c-452f3ac07073")
+	)
+	(wire
+		(pts
+			(xy 180.34 86.36) (xy 212.09 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e5a0fc4-bad6-42d9-9558-a79f5ce28f92")
 	)
 	(wire
 		(pts
@@ -663,6 +887,36 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 107.95) (xy 135.89 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3485c702-919c-4431-af4c-115c1261b49e")
+	)
+	(wire
+		(pts
+			(xy 170.18 78.74) (xy 133.35 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34a5e64d-a22b-4c74-9353-2f018605eb1e")
+	)
+	(wire
+		(pts
+			(xy 132.08 73.66) (xy 132.08 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cb7d49e-7cd6-47bb-be80-9de9adb7f6c5")
+	)
+	(wire
+		(pts
 			(xy 130.81 102.87) (xy 130.81 139.7)
 		)
 		(stroke
@@ -683,7 +937,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 97.79) (xy 190.5 97.79)
+			(xy 180.34 97.79) (xy 185.42 96.52)
 		)
 		(stroke
 			(width 0)
@@ -700,6 +954,16 @@
 			(type default)
 		)
 		(uuid "7f7078b5-ef89-4e30-917a-8fa9d8254dee")
+	)
+	(wire
+		(pts
+			(xy 132.08 73.66) (xy 170.18 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "819e0240-1646-4b18-aecd-784fb3511892")
 	)
 	(wire
 		(pts
@@ -753,6 +1017,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 66.04) (xy 191.77 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa38626b-d868-47f8-bd03-3a6bf7ddfe9f")
+	)
+	(wire
+		(pts
 			(xy 135.89 100.33) (xy 128.27 100.33)
 		)
 		(stroke
@@ -760,6 +1034,16 @@
 			(type default)
 		)
 		(uuid "af135014-6cd6-46d2-950b-6c824eb6208a")
+	)
+	(wire
+		(pts
+			(xy 212.09 86.36) (xy 212.09 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b82dbc50-5834-4a92-b69b-fbce994dc7bc")
 	)
 	(wire
 		(pts
@@ -793,7 +1077,17 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 107.95) (xy 215.9 107.95)
+			(xy 133.35 78.74) (xy 133.35 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0459d74-e4e2-428d-8573-658936242ddd")
+	)
+	(wire
+		(pts
+			(xy 203.2 107.95) (xy 212.09 107.95)
 		)
 		(stroke
 			(width 0)
@@ -901,7 +1195,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 97.79 0)
+		(at 185.42 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -912,7 +1206,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f5d47ee-c66a-4a16-992b-b8a582f681ea")
 		(property "Reference" "#PWR01"
-			(at 190.5 104.14 0)
+			(at 185.42 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -923,7 +1217,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 102.87 0)
+			(at 185.42 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -933,7 +1227,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 97.79 0)
+			(at 185.42 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -944,7 +1238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 97.79 0)
+			(at 185.42 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -955,7 +1249,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 97.79 0)
+			(at 185.42 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1408,6 +1702,94 @@
 			(project "HexaPad"
 				(path "/5386e0fd-4bb6-4932-97ee-c8cecb18126d"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Display_Graphic:ER_OLEDM0.91_1x-I2C")
+		(at 180.34 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca9bc76f-dfaf-4cb5-ae53-6936bbaf1b24")
+		(property "Reference" "U2"
+			(at 189.23 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ER_OLEDM0.91_1x-I2C"
+			(at 189.23 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Display:ER_OLEDM0.91_1x-I2C"
+			(at 198.374 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.buydisplay.com/download/manual/ER-OLEDM0.91-1_Datasheet.pdf"
+			(at 223.012 90.932 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SSD1306 OLED module, 0.91 inch, 128x32, I2C"
+			(at 207.01 92.964 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ec34dd7-e9ee-4532-ac21-28851340eff1")
+		)
+		(pin "4"
+			(uuid "f31a83d4-c4df-49aa-8bf8-40ad5746c61a")
+		)
+		(pin "2"
+			(uuid "7d448100-91e1-413b-b360-2cf674f16276")
+		)
+		(pin "3"
+			(uuid "dec49503-8097-4a0b-b25a-7341f45987bb")
+		)
+		(instances
+			(project "HexaPad"
+				(path "/5386e0fd-4bb6-4932-97ee-c8cecb18126d"
+					(reference "U2")
 					(unit 1)
 				)
 			)
